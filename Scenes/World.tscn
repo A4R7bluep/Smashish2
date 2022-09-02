@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://hit.ogg" type="AudioStream" id=1]
+[ext_resource path="res://Scenes/HealthUI.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scripts/World.gd" type="Script" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 184, 10 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 368, 10 )
+
+[node name="World" type="Node2D"]
+light_mask = -2147483647
+script = ExtResource( 4 )
+
+[node name="HealthUI" parent="." instance=ExtResource( 3 )]
+
+[node name="Platform" type="StaticBody2D" parent="."]
+position = Vector2( -430, -25 )
+collision_layer = 2
+collision_mask = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
+position = Vector2( 184, 231.157 )
+shape = SubResource( 1 )
+
+[node name="Ground" type="StaticBody2D" parent="."]
+collision_mask = 5
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ground"]
+position = Vector2( 368, 408 )
+shape = SubResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -9.0
+
+[editable path="HealthUI"]

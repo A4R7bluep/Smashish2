@@ -1,0 +1,135 @@
+Name: Xeus
+
+Description: Vampire character
+
+Character Feel: Badass? Loose?
+
+Appearance:
+    Vampire:
+        A vampire that is 6 feet and 3 inches
+        Wears a black frock coat, black fedora, black dress pants, and black dress shoes
+        Bear chested
+        Tall and thin in stature, but still quite buff
+        Keeps his hands in the pockets of his pants for some moves
+    
+    Bat:
+        A vampire bat around the size of a hawk
+
+    Dagger:
+        A long-ish dagger around a foot long and 1.5 inches wide
+        A pommel of a skull in silver
+        The handle is made of ebony
+        The blade is curved backward 
+        The blade is bone white with a groove along the contour near the spine side, going from the guard to the tip
+        The groove moves blood down the blade to be drunk from the skull later (MAKE MOVE)
+        The blade tapers gently into a sharp point
+
+
+Mechanics: 
+    Possible - if a move is used in the last 10 moves multiple times, damage and knockback are reduced
+
+    Blood meter for dagger blood
+
+
+Weakness: if Xeaus does not hit a melee attack in [certain amount of time] he starts taking damage
+
+
+Moves: 
+
+    Grab: Bites opponent with fangs
+
+    Forward Punch
+        Input: 5L
+
+        Use: High
+
+    Dagger Stab
+        Input: 5M
+
+        Use: Poke, combo setup
+
+    Knife Slash - Low, Mid, High hits
+        Description: High anti-airs
+
+        Input: 2M, 6M, 4M
+
+        Use: 
+            Low - Poke, trip
+            Mid - Block pressure
+            High - Anti-air, combo setup, flying
+    
+    Sip of Blood
+        Description:
+            Consumes some blood built up in the dagger
+            Increases damage and defence for 3 seconds
+
+        Input: 24L
+
+    Crouch Kick - right foot
+        Input: 2L
+
+        Use: Low
+    
+    Slash Kick - with left foot (like Happy Chaos 6K)
+        Input: 6L
+
+        Use: In combo
+
+    Bat Dash
+        Input: 26L, 26M, 26H
+
+        Use: Mix-up, approach
+
+        Light: goes the least far, designed to go right in front of opponent - cancelable into other moves
+        Medium: Goes farther, designed to cross up opponent - cancelable only into lights
+        Heavy: Goes same distance as medium but attacks after launching up - uncancelable
+
+    Bat Swarm - Pulls back his jacket and bats swarm out (similar to Zato 5H)
+        Input: 4H
+
+        Use: Spacing
+
+    Demonic Fire
+        Description:
+            Summons a ball of purple fire
+            When it hits opponent, it sets them on fire but no damage
+            When the move is inputed again the opponent explodes
+            The fireball can set fire to people who are blocking
+
+        Input: 623H
+    
+    Drag Into Darkness
+        Description: pulls the opponent forward
+
+        Input: 24H
+
+    Winged Cross-up
+        Input: 24M
+        
+        Use: Cross-up
+
+
+    Bat Aerial Spin
+        Input: jL
+    
+    Wing Slash
+        Input: jM
+    
+    Bat Dive
+        Input: jH
+    
+        
+    Supers:
+        Super Press: Install
+            If the dagger's blood is full, Xeaus goes into a superpowered state and does more damage
+
+            When used, the blood bursts into purple flames and Xeaus drinks the blood
+
+        Super Execute:
+            Stabs enemy, throws them in the air, the dagger flying, slashes the opponent over
+            and over while bats fly in and swarm the enemy and when Xeaus is done, he tips his hat and backs up
+
+            Gets more damage from timing the press of the super button
+        
+        
+    Inspiration - D&D Monster Manual

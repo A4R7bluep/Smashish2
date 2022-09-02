@@ -1,0 +1,27 @@
+GUI:
+    HUD:
+        Health Bars:
+            Health - blue gradient between 1e1e62 and 30309c
+            Damaged - middle gray with 50% opacity
+            Combo - red gradient between 4d1919 and 742525
+
+            Gradients are from darkest on the inside outward to lighter colors
+            Health bars have white borders
+        
+        Character Portraits:
+            A square portrait of the character in anime style
+            Shakes when character takes damage
+        
+        Super Moves:
+            When supers are being proformed, a large anime drawing of the character is shown in the (Background / Foreground)
+    
+    Navigation:
+        Buttons are Navy (000080) with white text
+
+Mechanics:
+    Auto turn-around, 
+
+Buttons:
+    3 buttons, Light, Medium, and Heavy (Abreviated L, M, H)
+
+    Pressing LH together inputs grab

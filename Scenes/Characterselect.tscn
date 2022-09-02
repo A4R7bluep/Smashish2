@@ -1,0 +1,84 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Box.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/New.gd" type="Script" id=3]
+
+[node name="CharacterSelect" type="Control"]
+anchor_top = -0.00504499
+anchor_right = 1.0
+anchor_bottom = 0.994955
+margin_top = 2.1189
+margin_bottom = 2.1189
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Old" type="Control" parent="."]
+visible = false
+margin_left = 21.0
+margin_top = -397.0
+margin_right = 61.0
+margin_bottom = -357.0
+
+[node name="Button" type="Button" parent="Old"]
+margin_left = 288.0
+margin_top = 194.119
+margin_right = 464.0
+margin_bottom = 218.119
+
+[node name="Button2" type="Button" parent="Old"]
+margin_left = 288.0
+margin_top = 242.119
+margin_right = 464.0
+margin_bottom = 266.119
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayButton" type="Button" parent="Old"]
+margin_left = 344.0
+margin_top = 298.119
+margin_right = 408.0
+margin_bottom = 322.119
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="New" type="Control" parent="."]
+margin_left = 373.0
+margin_top = 210.0
+margin_right = 373.0
+margin_bottom = 210.0
+script = ExtResource( 3 )
+
+[node name="Sprite1" type="Sprite" parent="New"]
+position = Vector2( 100, 0 )
+texture = ExtResource( 2 )
+
+[node name="Sprite2" type="Sprite" parent="New"]
+position = Vector2( 70, 70 )
+texture = ExtResource( 2 )
+
+[node name="Sprite3" type="Sprite" parent="New"]
+position = Vector2( 0, 100 )
+texture = ExtResource( 2 )
+
+[node name="Sprite4" type="Sprite" parent="New"]
+position = Vector2( -70, 70 )
+texture = ExtResource( 2 )
+
+[node name="Sprite5" type="Sprite" parent="New"]
+position = Vector2( -100, 0 )
+texture = ExtResource( 2 )
+
+[node name="Sprite6" type="Sprite" parent="New"]
+position = Vector2( -70, -70 )
+texture = ExtResource( 2 )
+
+[node name="Sprite7" type="Sprite" parent="New"]
+position = Vector2( 0, -100 )
+texture = ExtResource( 2 )
+
+[node name="Sprite8" type="Sprite" parent="New"]
+position = Vector2( 70, -70 )
+texture = ExtResource( 2 )

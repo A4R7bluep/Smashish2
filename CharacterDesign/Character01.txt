@@ -1,0 +1,31 @@
+Name: Character 1
+
+Description: 
+
+Character Feel: Hype, Lot's of suicide killing moves, risk taker
+
+Moves:
+
+	Tier 1:
+		neutral:
+		forward:
+		up:
+		down:
+	
+	Tier 2:
+		neutral:
+		forward:
+		up:
+		down:
+	
+	Tier 3:
+		neutral:
+		forward:
+		up:
+		down:
+	
+	Aerials:
+		neutral:
+		forward:
+		up:
+		down:

@@ -1,0 +1,138 @@
+Tether Character
+
+The character uses a tether
+
+Attacks:
+
+    Tether:
+        Brings opponent into the air and then can do air combos from there
+
+        Upward, grab:
+            sends higher into the air, goes through blocking
+            Angle: 45 degrees
+
+        Horizontal: doesn't send as high as the close ranged opponent
+            Angle: 0 degrees
+        
+        Both types have different combos that you can do from them
+
+    Has a bunch of in air attacks with not that many ground attacks
+
+    Air Attacks:
+
+        Normals:
+
+            Slash Kick:
+                Input:
+                Damage:
+                Launch Angle: 8 numpad
+                Description:
+                    A slash of the right leg to continue the combo
+            
+            Basic Punch:
+                Input: 
+                Damage: 
+                Launch Angle: slight 9 numpad
+                Description:
+                    A punch in the air to continue combo
+            
+            Dunk Kick:
+                Input:
+                Damage:
+                Launch Angle: 2 numpad
+                Description:
+                    A kick with right leg that launches straight down
+                    Continues the combo
+
+        Command Inputs:
+
+            Jump kick:
+                Input:
+                Damage: 
+                Launch Angle: 9 numpad
+                Description:
+                    A flying kick downward sending the opponent upward for continuing the combo
+            
+            Air Dash:
+                Input 1: 4 (charge) 6, 
+                Input 2: 3 (charge) 7, 
+                Input 3: 9 (charge) 1, 
+                Damage:
+                Launch Angle: None
+                Description:
+                    An air dash, distance is determined by how long you charge it, direction depends on where you inputed, cancelable
+            
+            Punch 3 Hit Combo:
+                Input:
+                Damage:
+                Launch Angle: strong 9
+                Description:
+                    A 3 hit combo of punches, hook right first, then hook left, thun a right uppercut
+                    continues the combo
+            
+            Triple Kick:
+                Input: 623, 
+                Damage:
+                Launch Angle: 6 numpad
+                Description:
+                    A triple kick forward that launches straight forward
+
+    Ground Attacks:
+
+        Normals:
+
+            Slide Kick:
+                Input:
+                Damage:
+                Launch Angle: 6 numpad
+                Description:
+                    A basic kick with left foot
+            
+            Punch:
+                Input:
+                Damage:
+                Launch Angle: 6 numpad
+                Description:
+                    Can lead to horizontal tether
+
+        Command Inputs:
+
+            Horizontal Tether:
+                Input:
+                Damage:
+                Launch Angle: pulls toward
+                Description:
+                    A tether that pulls the opponent forward, can lead to upward tether or ground uppercut
+            
+            Upward Tether:
+                Input:
+                Damage:
+                Launch Angle: strong 9 numpad
+                Description:
+                    A tether that sends the opponent flying upward, starts most combos
+    
+    Super Attacks:
+    
+        Gun super:
+            Input:
+            Damage:
+            Final Launch Angle: 
+            Description:
+                A horizontal shoot of the gun
+
+        Cinematic:
+            Input:
+            Damage:
+            Final Launch Angle: None, lays on ground
+            Description:
+                high kick up in air, jump and shoot a bunch of times, tether character land, tether and slam to ground, stem on their face, walk away
+
+Appearance:
+    Woman assasin with a black suit
+    Gun holstered on her belt
+    Heels
+
+Combo Routes:
+    Upward Tether:
+
+    Horizontal Tether:

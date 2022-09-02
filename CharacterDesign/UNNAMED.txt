@@ -1,0 +1,10 @@
+Corrupted Character
+The name in game would flicker between random letters that slowly form the name ENTITY
+
+The character is posessed by a demon that, over the time of the game, gains more control over it's host
+Smoke is flowing around the host, more smoke the higher level of corruption
+When the character gets hit, the corruption goes down
+Higher corruption levels allow for more powerful moves and strengthens the weaker moves
+The character has high pressure from using up some of the corruption to cancel attack lag; basically GGST Roman Cancels
+
+After a certain amount of time, the character slowly looses health, making it a game of getting corruption meter and then trying to finish the game quickly

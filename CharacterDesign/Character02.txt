@@ -1,0 +1,72 @@
+Name: Xeaus
+
+Description: vampire character
+
+Character Feel: 
+
+Mechanics: Possibly for all - if a move is used in the last 10 moves multiple times, damage and knockback are reduced
+
+Forms (special):
+	Vampire:
+		can only do tier 1, 2, and 3 moves 
+	
+	Bat:
+		can only do tier 2 and aerials
+		has 2 more jumps (flapping)
+		has less defense and takes more knockback
+	
+Weakness: if vampire does not hit in [certain amount of time] he starts taking damage
+
+
+Moves: 
+
+	Tier 1:
+		neutral: feral bite (possibly causes random status effects?) - 3 frames - small end lag - no knockback - Neutral tier 1
+		
+		forward: knife stab forward - 5 frames - medium end lag - launches forward and up a bit - forward + tier 2
+		
+		up: knife slash across up - 6 frames - small/medium end lag - knocks up in range, 45 left, 45 right - up + tier 2
+		
+		down: kick - 4 frames - medium/long end lag - knocks up and forward a bit - down + tier 1
+	
+	Tier 2:
+		neutral: raises attack at the expense of defense - 7 frames - small end lag | SPRITE MADE - 4262 + tier 2
+		
+		forward: bat dash if it hits, steals some health (bite) - 20 frames - long end lag - knocks up and forward - 26 + tier 1
+		
+		up: switch between forms, has (in)vulnerability during use - 40 frames - small/medium end lag - I-frames on switch - 28 input
+		
+		down: summons swarms of bats that rush at nearest foe - 4 frames - really long end lag | SPRITE MADE - 2626 + tier 3
+	
+	Tier 3:
+		forward: casts a ball of dark energy in front, more charged versions have higher chances of after the 
+				opponent dies a helper will come out, fully charged has a 100% chance - startup 10-40 frames based on charge, 
+				5 frames (energy ball) - medium end lag - launches up and right - 4264 + tier 2
+				
+		up: on the ground, bats converge and have invulnerability. when not on the ground bats 
+				converge and teleport possibly through stage in the direction the player inputted. 
+				either on the ground or in the air, after the invulnerability period the bats explode out anyone nearby flies away
+				(if inside stage, instant death) - 12 frames (bats converge) - medium/long end lag - launches out - 426 + tier 1
+		
+		down: goes into the air, turns into a bat and falls back down - 10 frames - long end lag - launches down
+	
+	Aerials:
+		neutral: spins hitting with wings - 6 frames - launches out - Smash input
+		
+		forward: slashes with wings - 10 frames - launches forward - Smash input
+		
+		up: bat flies up - 4 frames - launches up | SPRITE MADE	- Smash input
+		
+		down: bat dives straight down until it hits the ground - 6 frames - launches down then up - Smash input
+		
+		back: hits backward with wings - 10 frames - launches backward | SPRITE MADE - Smash input
+		
+	Rage:
+		Rage Press: 
+
+		Rage Execute: runs at enemy, stabs them, throws them in the air with the dagger being controlled by Xeaus he slashed the opponent over 
+			and over while bats fly in and swarm the enemy and when its over when Xeaus is done he tips his and backs up - 62426 + tier 3
+	    
+		
+	Inspiration - D&D Monster Manual
+

@@ -1,0 +1,33 @@
+Name: Character 3
+
+Description: 
+
+Character Feel: High movement character that makes portals and can push characters into portals
+
+HAS A MOVE THAT CAN SLOW TIME
+
+Moves:
+
+	Tier 1:
+		neutral:
+		forward:
+		up:
+		down:
+	
+	Tier 2:
+		neutral:
+		forward:
+		up:
+		down:
+	
+	Tier 3:
+		neutral:
+		forward:
+		up:
+		down:
+	
+	Aerials:
+		neutral:
+		forward:
+		up:
+		down:

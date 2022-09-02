@@ -1,0 +1,600 @@
+[gd_scene load_steps=50 format=2]
+
+[ext_resource path="res://Xeus_Walking-1.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Hurtbox.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Hitbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scripts/Xeus.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/PlayerStats.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/LabelChooser.tscn" type="PackedScene" id=6]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT1D.gd" type="Script" id=7]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT1U.gd" type="Script" id=8]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT1N.gd" type="Script" id=9]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT1F.gd" type="Script" id=10]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT2F.gd" type="Script" id=11]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT3U.gd" type="Script" id=12]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusT3D.gd" type="Script" id=13]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusAN.gd" type="Script" id=14]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusAF.gd" type="Script" id=15]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusAU.gd" type="Script" id=16]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusAD.gd" type="Script" id=17]
+[ext_resource path="res://HitboxAttributes/Xeus/XeusAB.gd" type="Script" id=18]
+[ext_resource path="res://Scenes/inputManager.tscn" type="PackedScene" id=19]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 22.8543
+height = 94.1805
+
+[sub_resource type="Animation" id=2]
+resource_name = "AB"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Aerials/AB/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=3]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Aerials/AD/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Position2D/Aerials/AD:knockY")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 10, -10 ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Aerials/AF/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Aerials/AN/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Aerials/AU/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.001
+
+[sub_resource type="Animation" id=8]
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Tier1/T1D/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Position2D/Tier1/T1D/CollisionShape2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 24, 24 ), Vector2( 32, 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Position2D/Tier1/T1D/CollisionShape2D:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 98.0, 120.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Position2D/Tier1/T1D/CollisionShape2D:shape:height")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 15.6886, 33.5692 ]
+}
+
+[sub_resource type="Animation" id=9]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Tier1/T1F/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=10]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Tier1/T1N/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=11]
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Tier1/T1U/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.6 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Position2D/Tier1/T1U/CollisionShape2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 32, -32 ), Vector2( 0, -48 ), Vector2( -32, -32 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Position2D/Tier1/T1U/CollisionShape2D:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 135.0, 90.0, 45.0 ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "T3D"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Tier3/T3D/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Position2D/Tier3/T3D/CollisionShape2D2:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "T3F"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:T3FCharge")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.8, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 1, 2, 3 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:T3Fdone")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=14]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/Tier3/T3U/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "counter"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Position2D/BlockCounter/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="CapsuleShape2D" id=16]
+radius = 8.0
+height = 33.5692
+
+[sub_resource type="CapsuleShape2D" id=17]
+radius = 8.0
+
+[sub_resource type="CircleShape2D" id=18]
+
+[sub_resource type="CapsuleShape2D" id=19]
+radius = 8.0
+
+[sub_resource type="CircleShape2D" id=20]
+radius = 16.0
+
+[sub_resource type="CircleShape2D" id=21]
+radius = 48.0
+
+[sub_resource type="CapsuleShape2D" id=22]
+radius = 16.0
+height = 16.0
+
+[sub_resource type="CapsuleShape2D" id=23]
+radius = 16.0
+height = 16.0
+
+[sub_resource type="CircleShape2D" id=24]
+radius = 64.0
+
+[sub_resource type="CircleShape2D" id=25]
+radius = 32.0
+
+[sub_resource type="CircleShape2D" id=26]
+radius = 40.0
+
+[sub_resource type="CircleShape2D" id=27]
+radius = 16.0
+
+[sub_resource type="CircleShape2D" id=28]
+radius = 24.0
+
+[sub_resource type="CircleShape2D" id=29]
+radius = 128.25
+
+[sub_resource type="CapsuleShape2D" id=30]
+radius = 23.1961
+height = 93.0601
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+collision_mask = 0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 9.16416, -8.00903 )
+texture = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Default"
+anims/AB = SubResource( 2 )
+anims/AD = SubResource( 3 )
+anims/AF = SubResource( 4 )
+anims/AN = SubResource( 5 )
+anims/AU = SubResource( 6 )
+anims/Default = SubResource( 7 )
+anims/T1D = SubResource( 8 )
+anims/T1F = SubResource( 9 )
+anims/T1N = SubResource( 10 )
+anims/T1U = SubResource( 11 )
+anims/T3D = SubResource( 12 )
+anims/T3F = SubResource( 13 )
+anims/T3U = SubResource( 14 )
+anims/counter = SubResource( 15 )
+
+[node name="Position2D" type="Position2D" parent="."]
+
+[node name="Tier1" type="Node2D" parent="Position2D"]
+
+[node name="T1D" parent="Position2D/Tier1" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier1/T1D" index="0"]
+position = Vector2( 32, 16 )
+rotation = 2.0944
+shape = SubResource( 16 )
+disabled = true
+
+[node name="T1U" parent="Position2D/Tier1" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 8 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier1/T1U" index="0"]
+position = Vector2( -32, -32 )
+rotation = 0.785398
+shape = SubResource( 17 )
+disabled = true
+
+[node name="T1N" parent="Position2D/Tier1" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 9 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier1/T1N" index="0"]
+position = Vector2( 16, -21.6187 )
+shape = SubResource( 18 )
+disabled = true
+
+[node name="T1F" parent="Position2D/Tier1" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 10 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier1/T1F" index="0"]
+position = Vector2( 32, -8 )
+rotation = 1.5708
+shape = SubResource( 19 )
+disabled = true
+
+[node name="Tier2" type="Node2D" parent="Position2D"]
+
+[node name="T2F" parent="Position2D/Tier2" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 11 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier2/T2F" index="0"]
+position = Vector2( 24, -16 )
+rotation = 1.5708
+shape = SubResource( 20 )
+disabled = true
+
+[node name="Tier3" type="Node2D" parent="Position2D"]
+
+[node name="T3U" parent="Position2D/Tier3" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier3/T3U" index="0"]
+shape = SubResource( 21 )
+disabled = true
+
+[node name="T3D" parent="Position2D/Tier3" instance=ExtResource( 3 )]
+rotation = 1.5708
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 13 )
+
+[node name="CollisionShape2D" parent="Position2D/Tier3/T3D" index="0"]
+position = Vector2( 32, 0 )
+shape = SubResource( 22 )
+disabled = true
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Position2D/Tier3/T3D"]
+position = Vector2( -32, 0 )
+shape = SubResource( 23 )
+disabled = true
+
+[node name="Aerials" type="Node2D" parent="Position2D"]
+scale = Vector2( -1, 1 )
+
+[node name="AN" parent="Position2D/Aerials" instance=ExtResource( 3 )]
+position = Vector2( 0, -12 )
+rotation = 3.14159
+scale = Vector2( 1, -1 )
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 14 )
+
+[node name="CollisionShape2D" parent="Position2D/Aerials/AN" index="0"]
+position = Vector2( 0, 12 )
+shape = SubResource( 24 )
+disabled = true
+
+[node name="AF" parent="Position2D/Aerials" instance=ExtResource( 3 )]
+position = Vector2( 0, -12 )
+rotation = 3.14159
+scale = Vector2( 1, -1 )
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 15 )
+
+[node name="CollisionShape2D" parent="Position2D/Aerials/AF" index="0"]
+position = Vector2( 48, 36 )
+shape = SubResource( 25 )
+disabled = true
+
+[node name="AU" parent="Position2D/Aerials" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 16 )
+
+[node name="CollisionShape2D" parent="Position2D/Aerials/AU" index="0"]
+shape = SubResource( 26 )
+disabled = true
+
+[node name="AD" parent="Position2D/Aerials" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 17 )
+knockY = -10
+
+[node name="CollisionShape2D" parent="Position2D/Aerials/AD" index="0"]
+position = Vector2( 0, 48 )
+shape = SubResource( 27 )
+disabled = true
+
+[node name="AB" parent="Position2D/Aerials" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+script = ExtResource( 18 )
+
+[node name="CollisionShape2D" parent="Position2D/Aerials/AB" index="0"]
+position = Vector2( 40, -32 )
+shape = SubResource( 28 )
+
+[node name="BlockCounter" parent="Position2D" instance=ExtResource( 3 )]
+collision_layer = 0
+collision_mask = 1048569
+
+[node name="CollisionShape2D" parent="Position2D/BlockCounter" index="0"]
+shape = SubResource( 29 )
+disabled = true
+
+[node name="Hurtbox" parent="." instance=ExtResource( 2 )]
+collision_layer = 0
+collision_mask = 0
+
+[node name="CollisionShape2D" parent="Hurtbox" index="0"]
+shape = SubResource( 30 )
+
+[node name="LabelChooser" parent="." instance=ExtResource( 6 )]
+
+[node name="PlayerStats" parent="." instance=ExtResource( 5 )]
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+
+[node name="inputManager" parent="." instance=ExtResource( 19 )]
+
+[connection signal="body_entered" from="Position2D/Tier1/T1D" to="." method="_on_T1D_body_entered"]
+[connection signal="body_entered" from="Position2D/Tier1/T1U" to="." method="_on_T1U_body_entered"]
+[connection signal="body_entered" from="Position2D/Tier1/T1N" to="." method="_on_T1N_body_entered"]
+[connection signal="body_entered" from="Position2D/Tier1/T1F" to="." method="_on_T1F_body_entered"]
+[connection signal="body_entered" from="Position2D/Tier2/T2F" to="." method="_on_T2F_body_entered"]
+[connection signal="body_entered" from="Position2D/Tier3/T3U" to="." method="_on_T3U_body_entered"]
+[connection signal="body_entered" from="Position2D/Tier3/T3D" to="." method="_on_T3D_body_entered"]
+[connection signal="body_entered" from="Position2D/Aerials/AN" to="." method="_on_AN_body_entered"]
+[connection signal="body_entered" from="Position2D/Aerials/AF" to="." method="_on_AF_body_entered"]
+[connection signal="body_entered" from="Position2D/Aerials/AU" to="." method="_on_AU_body_entered"]
+[connection signal="body_entered" from="Position2D/Aerials/AD" to="." method="_on_AD_body_entered"]
+[connection signal="body_entered" from="Position2D/Aerials/AB" to="." method="_on_AB_body_entered"]
+[connection signal="body_entered" from="Position2D/BlockCounter" to="." method="_on_BlockCounter_body_entered"]
+[connection signal="body_entered" from="Hurtbox" to="." method="_on_Hurtbox_body_entered"]
+
+[editable path="Position2D/Tier1/T1D"]
+[editable path="Position2D/Tier1/T1U"]
+[editable path="Position2D/Tier1/T1N"]
+[editable path="Position2D/Tier1/T1F"]
+[editable path="Position2D/Tier2/T2F"]
+[editable path="Position2D/Tier3/T3U"]
+[editable path="Position2D/Tier3/T3D"]
+[editable path="Position2D/Aerials/AN"]
+[editable path="Position2D/Aerials/AF"]
+[editable path="Position2D/Aerials/AU"]
+[editable path="Position2D/Aerials/AD"]
+[editable path="Position2D/Aerials/AB"]
+[editable path="Position2D/BlockCounter"]
+[editable path="Hurtbox"]

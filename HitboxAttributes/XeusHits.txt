@@ -1,0 +1,58 @@
+Xeus damage and knockback
+
+	AB:
+		damage = 17
+		knockX = -10
+		knockY = 4
+	AD:
+		damage = 15
+		knockX = 0
+		knockY = 0
+	AF:
+		damage = 6
+		knockX = 6
+		knockY = -1
+	AN:
+		damage = 6
+		knockX = 0
+		knockY = 0
+	AU:
+		damage = 14
+		knockX = 1
+		knockY = 7
+	T1D:
+		damage = 4
+		knockX = 3
+		knockY = 2
+	T1F:
+		damage = 8
+		knockX = 6
+		knockY = 2
+	T1N:
+		damage = 3
+		knockX = 4
+		knockY = 1
+	T1U:
+		damage = 13
+		knockX = 6
+		knockY = 15
+	T2D:
+		damage = 2
+		knockX = 0
+		knockY = 0
+	T2F:
+		damage = 21
+		knockX = 5
+		knockY = 10
+	T3D:
+		damage = 13
+		knockX = 0
+		knockY = -7
+	T3F:
+		damage = 0
+		knockX = 0
+		knockY = 0
+	T3U:
+		damage = 20
+		knockX = 1
+		knockY = 15
