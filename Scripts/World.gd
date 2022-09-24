@@ -36,6 +36,7 @@ func _ready():
 		elif player == "Xeaus":
 			var myXeaus = XeausScene.instance()
 			myXeaus.thisPlayerNumber = i
+			myXeaus.position.x = 100 * i
 			self.add_child(myXeaus)
 		
 		elif player == "Thing":

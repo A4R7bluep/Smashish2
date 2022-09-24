@@ -57,9 +57,9 @@ func movement_vector():
 	var movementVector = Vector2(directionX, directionY)
 	
 	
-	directionX = Input.get_action_strength("Player{}_Right".format({"": playerNumber})) - Input.get_action_strength("Player{}_Left".format({"": playerNumber}))
+	directionX = Input.get_action_strength("Player{}_Right".format({"": playerNumber + 1})) - Input.get_action_strength("Player{}_Left".format({"": playerNumber + 1}))
 	
-	directionY = Input.get_action_strength("Player{}_Up".format({"": playerNumber})) - Input.get_action_strength("Player{}_Down".format({"": playerNumber}))
+	directionY = Input.get_action_strength("Player{}_Up".format({"": playerNumber + 1})) - Input.get_action_strength("Player{}_Down".format({"": playerNumber + 1}))
 	
 	movementVector = Vector2(directionX, directionY)
 	
@@ -152,16 +152,16 @@ func _process(delta):
 	
 	emit_signal("Move" + lastDirection)
 	
-	if Input.is_action_pressed("Player{}_Dash".format({"": playerNumber})):
+	if Input.is_action_pressed("Player{}_Dash".format({"": playerNumber + 1})):
 		emit_signal("Dash", delta)
 	
-	if Input.is_action_pressed("Player{}_T1".format({"": playerNumber})):
+	if Input.is_action_pressed("Player{}_T1".format({"": playerNumber + 1})):
 		findMove("T1")
 	
-	if Input.is_action_pressed("Player{}_T2".format({"": playerNumber})):
+	if Input.is_action_pressed("Player{}_T2".format({"": playerNumber + 1})):
 		findMove("T2")
 		
-	if Input.is_action_pressed("Player{}_T3".format({"": playerNumber})):
+	if Input.is_action_pressed("Player{}_T3".format({"": playerNumber + 1})):
 		findMove("T3")
 		
 	

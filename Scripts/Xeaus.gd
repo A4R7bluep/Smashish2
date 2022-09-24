@@ -248,6 +248,9 @@ func _on_NewInputManager_Circle24T2():
 		ANIMATIONPLAYER.play("24M")
 
 
+func _ready():
+	INPUT.playerNumber = thisPlayerNumber
+
 func _physics_process(delta):
 #	print("directions: {}".format({"": [up, down, left, right]}))
 #	match state:
