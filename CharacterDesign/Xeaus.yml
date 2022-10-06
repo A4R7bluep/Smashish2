@@ -1,4 +1,4 @@
-Name: Xeus
+Name: Xeaus
 
 Description: Vampire character
 
@@ -95,7 +95,7 @@ Moves:
         Description:
             Snaps to summon a ball of purple fire
             When it hits opponent, it sets them on fire but no damage
-            When the move is inputed again the opponent explodes
+            When the move is inputed again the opponent explodes, another snap
             The fireball can set fire to people who are blocking
 
         Input: 623H
@@ -126,7 +126,7 @@ Moves:
         
     Supers:
         Super Press: Install
-            If the dagger's blood is full, Xeaus goes into a superpowered state and does more damage
+            If the dagger's blood is full, Xeaus goes into a superpowered state and does more damage (Pulls left hand out from pocket thing)
 
             When used, the blood bursts into purple flames and Xeaus drinks the blood
 
