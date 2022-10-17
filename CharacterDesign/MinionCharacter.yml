@@ -1,0 +1,44 @@
+Name: 
+
+Description: Summon Character
+
+Character Feel: 
+
+Appearance:
+    
+
+
+Mechanics: 
+    Possible - if a move is used in the last 10 moves multiple times, damage and knockback are reduced
+
+    Summon minions and is untouchable except hitting minions does damage
+    When health gest around 30% then you can't summon minions and have to fight with the character itself
+    Character itself is weaker
+
+
+Weakness: If you defeat all the minions then the character itself is weak
+
+
+Moves: 
+
+    Grab: 
+
+    Example
+        Input: 
+
+        Use: 
+
+    Example Aerial
+        Input: jL, jM, jH
+    
+        
+    Supers:
+        Super Press: 
+
+        Super Execute:
+            
+
+            Gets more damage from timing the press of the super button
+        
+        
+    Inspiration - Lelouch, Neco-Arc
