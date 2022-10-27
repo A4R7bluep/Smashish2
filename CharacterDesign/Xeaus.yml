@@ -15,6 +15,7 @@ Appearance:
     
     Bat:
         A vampire bat around the size of a hawk
+        Black fur?
 
     Dagger:
         A long-ish dagger around a foot long and 1.5 inches wide
@@ -27,7 +28,7 @@ Appearance:
 
 
 Lore:
-    - Xeaus and his friends died in the forest and were not found
+    - Xeaus and his friends, Marc and Nils, died in the forest and were not found
     - He awoke as a vampire a couple days later after his body had rotted a while
     - He was hungry so he slipped into the village and killed and drank the blood of everyone
     - He gained power and his body regenerated to what he looks like now
@@ -35,6 +36,31 @@ Lore:
     - He decided to only feed upon his enemies and animals (even though he hated the taste of animals)
     - Decided to fight only if necessary
     
+
+Intro Quotes:
+    Xeaus Stage:
+        (bows) Marc Kraus and Nils Kändler, may you rest in peace.
+        (yells to the sky) Oh what a monster I have become! May I be useful to the world to make up for it!
+    
+    General:
+        I wish not to kill you unless I have to.
+        Let's get this over with.
+    
+    Enemy?:
+        Your death shall be painful.
+        I pity you. You could have been a good person.
+
+
+Win Quotes:
+    Enemy?:
+        I shall give you a proper burial.
+        (Xeaus stage) Your body shall fertilze the forest.
+        Be happy in your new freedom and my you rest in peace.
+    
+    General:
+        I am sorry for hurting you, I shall heal you now.
+        I hope that was enough of a show of my power for you to stop fighting me. I don't want to use too much more because I might accidentally kill you.
+
 
 Stage: 
     a forest with lush deciduous trees and a path going along the length
