@@ -6,7 +6,7 @@ Smashish is inspired by Super Smash Bros Ultimate, though it's more like a tradi
 # Characters
 > Xeaus - Vampire semi-shoto
 
-# Todo <br>
+## Todo <br>
 
 ###Design <br>
 > Rolls <br>
