@@ -6,16 +6,16 @@ Smashish is inspired by Super Smash Bros Ultimate, though it's more like a tradi
 # Characters
 > Xeaus - Vampire semi-shoto
 
-# Todo
+# Todo <br>
 
-###Design
+###Design <br>
 > Rolls <br>
 > Special dash canceled attacks <br>
 > More movement options <br>
 > Parry that gives health and meter <br>
 > Things that use meter <br>
 <br>
-###Make
+###Make <br>
 > Xeaus sprites
 > Finish Xeaus hitboxes and moves <br>
 > Finish designing other characters <br>
