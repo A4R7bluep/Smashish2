@@ -7,8 +7,9 @@ Smashish is inspired by Super Smash Bros Ultimate, though it's more like a tradi
 > Xeaus - Vampire semi-shoto
 
 # Todo
+
 ##Design
-* rolls
+* Rolls
 * Special dash canceled attacks
 * More movement options
 * Parry that gives health and meter
