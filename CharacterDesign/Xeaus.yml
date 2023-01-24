@@ -7,11 +7,16 @@ Character Feel: Badass? Loose?
 Appearance:
     Vampire:
         A vampire that is 6 feet and 3 inches
-        Wears a black frock coat, brilliant blue vest, black fedora, black dress pants, and black dress shoes
         Tall, slender body
         Fair skin
         strength comes from vampiric power
         Keeps his hands in the pockets of his pants for some moves
+        Clothes:
+            black frock coat, brimming collar
+            blood red waistcoat, with black buttons, close to neck collar like a choker
+            black fedora
+            black dress pants
+            black dress shoes
     
     Bat:
         A vampire bat around the size of a hawk
@@ -54,7 +59,7 @@ Intro Quotes:
 Win Quotes:
     Enemy?:
         I shall give you a proper burial.
-        (Xeaus stage) Your body shall fertilze the forest.
+        (Xeaus stage) Your body shall fertilize the forest.
         Be happy in your new freedom and my you rest in peace.
     
     General:
@@ -68,12 +73,12 @@ Stage:
 
 
 Mechanics: 
-    Possible - if a move is used in the last 10 moves multiple times, damage and knockback are reduced
+    Possible - If a move is used in the last 10 moves multiple times, damage is reduced
+    Blood meter - Drink dagger blood for attack boost
 
-    Blood meter for dagger blood
-
-    Air dash - Like Zato's where it allows you to fly in the air, in bat form
-
+    Mechanic Overrides:
+        Air dash - Like Zato's where it allows you to fly in the air, in bat form
+        Shadow Step - Step dash instead of ground run, extra invincibility, appears to hide into the shadows out of nowhere 
 
 Weakness: if Xeaus does not hit a melee attack in [certain amount of time] he starts taking damage
 
@@ -105,7 +110,7 @@ Moves:
     Sip of Blood
         Description:
             Consumes some blood built up in the dagger
-            Increases damage and defence for 3 seconds
+            Increases damage and defense for 3 seconds
 
         Input: 24L
 
@@ -137,7 +142,7 @@ Moves:
         Description:
             Snaps to summon a ball of purple fire
             When it hits opponent, it sets them on fire but no damage
-            When the move is inputed again the opponent explodes, another snap
+            When the move is inputted again the opponent explodes, another snap
             The fireball can set fire to people who are blocking
 
         Input: 623H
