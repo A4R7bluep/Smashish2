@@ -11,6 +11,7 @@ Appearance:
         Fair skin
         strength comes from vampiric power
         Keeps his hands in the pockets of his pants for some moves
+
         Clothes:
             black frock coat, brimming collar
             blood red waistcoat, with black buttons, close to neck collar like a choker
@@ -78,7 +79,7 @@ Mechanics:
 
     Mechanic Overrides:
         Air dash - Like Zato's where it allows you to fly in the air, in bat form
-        Shadow Step - Step dash instead of ground run, extra invincibility, appears to hide into the shadows out of nowhere 
+        Shadow Step - Step dash instead of run, extra invincibility, appears to hide into the shadows out of nowhere
 
 Weakness: if Xeaus does not hit a melee attack in [certain amount of time] he starts taking damage
 
